@@ -51,9 +51,9 @@ nocache('./main.js', module => console.log(`${module} Telah Di Perbarui!`))
 const starts = async (kuza = new WAConnection()) => {
     kuza.logger.level = 'warn'
     kuza.version = [2,2143,3]
-    kuza.browserDescription = ['kuzaBot','Chrome', '3.0']
+    kuza.browserDescription = ['TianBot','Chrome', '3.0']
     console.log(banner)
-console.log(color('🌀[ BASE BY ABIL ]'))
+console.log(color('🌀[ BASE BY TIAN ]'))
     kuza.on('qr', () => {
         console.log(color('[ SCAN ]','red'), color('SCAN QRNYA'))
     })

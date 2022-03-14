@@ -82,13 +82,13 @@ const simple = require('./lib/simple.js')
 
     //--Setting--//
 
-let botname = '*_｢ KuzaBase 0.1 ｣ 冬_*' //NAMA BOT
-let lolkey = 'isi'
-let zekskey = 'NXRu7zmcmyWTn0YGNzIV0gTFgoP' //Ganti Pake Api Lu Sendiri Biar Limitnya Gak Cepet Abis , Login Di zeks.me Untuk Mendapatkan Api Gratis
-let ownername = '*_｢ AbilGanz ✘ ｣_*' //NAMA OWNER
-let owner = '6282293295376' // NOMOR OWNER
+let botname = '*_Tian Bot_*' //NAMA BOT
+let lolkey = '66b1d9749a697a1a4992876c'
+let zekskey = 'rUuYMXP6cPREjCAap2zGf754Juh' //Ganti Pake Api Lu Sendiri Biar Limitnya Gak Cepet Abis , Login Di zeks.me Untuk Mendapatkan Api Gratis
+let ownername = 'Tian Store' //NAMA OWNER
+let owner = '6281328507885' // NOMOR OWNER
 let symbol = '*☛*'
-let faketeks = `*_｢ KuzaBase 0.1 ｣ 冬_*` 
+let faketeks = `*_Tian Bot_*` 
 
 readGc = true; 
 readPc = true;
@@ -396,14 +396,14 @@ contexInfo: kuza
 // fakenya
 
 const katalog = (teks) => {
-res = kuza.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 111119999, "message": teks, "footerText": "KuzaBotz😈", "thumbnail": fs.readFileSync('pee.jpg'), "surface": 'CATALOG' }}, {quoted:fstatus})
+res = kuza.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 111119999, "message": teks, "footerText": "Tian Bot", "thumbnail": fs.readFileSync('pee.jpg'), "surface": 'CATALOG' }}, {quoted:fstatus})
 kuza.relayWAMessage(res)}
 const fakeyt = (teks) => { 
-kuza.sendMessage(from, teks, text,{contextInfo :{text: 'hi', "forwardingScore": 1000000000, isForwarded: false, sendEphemeral: false, "externalAdReply": { "title": `hallo ${pushname}🗿` , "body": `YT : ABIL BOTZ`, "mediaType": "2", "thumbnailUrl": "https://c.top4top.io/p_2087f30hj1.jpeg", "mediaUrl": "https://tps.com/channel/UCJPqI5eVhKPXPL2V8y6pIDA", "thumbnail": fs.readFileSync('pee.jpg'), "sourceUrl": "", },mentionedJid:[sender]}, quoted : fstatus})};
+kuza.sendMessage(from, teks, text,{contextInfo :{text: 'hi', "forwardingScore": 1000000000, isForwarded: false, sendEphemeral: false, "externalAdReply": { "title": `hallo ${pushname}🗿` , "body": `YT : TianYT`, "mediaType": "2", "thumbnailUrl": "https://c.top4top.io/p_2087f30hj1.jpeg", "mediaUrl": "https://tps.com/channel/UCJPqI5eVhKPXPL2V8y6pIDA", "thumbnail": fs.readFileSync('pee.jpg'), "sourceUrl": "", },mentionedJid:[sender]}, quoted : fstatus})};
 
 const fakestatus = (teks) => { kuza.sendMessage(from, teks, text, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg", "caption": faketeks, "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", "fileLength": "28777", "height": 1080, "width": 1079, "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=", "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=", "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69", "mediaKeyTimestamp": "1610993486", "jpegThumbnail": fs.readFileSync('pee.jpg'), "scansSidecar": "1W0XhfaAcDwc7xh1R8lca6Qg/1bB4naFCSngM2LKO2NoP5RI7K+zLw=="}}}})}
 const fvn = {key: {participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6282293295376-1613049930@g.us" } : {})},message: { "audioMessage": {"mimetype":"audio/ogg; codecs=opus","seconds":99999,"ptt": "true"}} }
-const fstatus = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "YT : ABIL BOTZ", 'jpegThumbnail': fs.readFileSync('pee.jpg')}}}
+const fstatus = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "YT : TianYT", 'jpegThumbnail': fs.readFileSync('pee.jpg')}}}
 
 const ftrol = {
 	key : {
@@ -517,7 +517,7 @@ latensi = speed() - timestamp;
 run = process.uptime();
  listMsg = {
  buttonText: 'ListMenu ️',
- footerText: '🌀 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 𝘈𝘣𝘪𝘭𝘉𝘰𝘵𝘻',
+ footerText: 'Tian Bot',
  description: `Hai kak @${sender.split('@')[0]}, Saya ${botname}, saya akan membatu mempermudah kehidupan..seperti membuat sticker dan lain-lain. untuk memulai silahkan ketik Click Button Dibawah yaa 🙏
  
  *_｢ Indonesia Time ｣_*
@@ -538,7 +538,7 @@ ${symbol} Speed : *${latensi.toFixed(4)} second*
 ${symbol} Runtime : *${kyun(run)}*`,
  sections: [
                      {
-                      "title": `Youtube : ABIL BOTZ`,
+                      "title": `Youtube : TianYT`,
  rows: [
                           {
                               "title": "☰ Command / All Menu️",
@@ -577,7 +577,7 @@ latensi = speed() - timestamp;
 run = process.uptime();
  listMsg = {
  buttonText: 'Buttons',
- footerText: '🌀 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 𝘈𝘣𝘪𝘭𝘉𝘰𝘵𝘻',
+ footerText: 'Tian Bot',
  description: `Hai kak @${sender.split('@')[0]}, Silahkan Pilih Salah Satu Button List Dibawah Yaa 🙏
  
  *_｢ Indonesia Time ｣_*
@@ -660,7 +660,7 @@ ${symbol} ${prefix}closegc
 ${symbol} ${prefix}tagall
 ${symbol} ${prefix}hidetag
 
-*_Created By AbilGanz_*`)
+*_Created By Tian Store_*`)
 break
 
 case 'stickermenu':
@@ -673,7 +673,7 @@ ${symbol} ${prefix}patrick
 ${symbol} ${prefix}gawgura
 ${symbol} ${prefix}stickeranime
 
-*_Created By AbilGanz_*`)
+*_Created By Tian Store_*`)
 break
 
 case 'downloadmenu':
@@ -683,7 +683,7 @@ ${symbol} ${prefix}ytsearch
 ${symbol} ${prefix}tiktokmusic
 ${symbol} ${prefix}pinterest
 
-*_Created By AbilGanz_*`)
+*_Created By Tian Store_*`)
 break
 
 case 'othermenu':
@@ -699,7 +699,7 @@ ${symbol} ${prefix}groupbot
 ${symbol} ${prefix}runtime
 ${symbol} ${prefix}speed
 
-*_Created By AbilGanz_*`)
+*_Created By Tian Store_*`)
 break
 
 case 'ownermenu':
@@ -713,7 +713,7 @@ ${symbol} ${prefix}upswaudio
 ${symbol} ${prefix}upswvideo
 ${symbol} ${prefix}upswimage
 
-*_Created By AbilGanz_*`)
+*_Created By Tian Store_*`)
 break
 
 case 'upswteks':
@@ -793,7 +793,7 @@ case 'bc':
              for (let _ of anu) {
              kuza.sendMessage(_.jid, 
 			{"contentText": `*「 BROADCAST 」*\n\n${body.slice(4)}`,
-			"footerText": 'kuzaBot by AbilBotz',
+			"footerText": 'TianBot by Tian Store',
 			"buttons": [
 			{"buttonId": `${prefix}owner`,
 			"buttonText": {"displayText": "OWNER"
@@ -892,7 +892,7 @@ reply(mess.error.stick)
 .on('end', function () {
 console.log('Finish')
 buffer = fs.readFileSync(ran)
-costum(buffer, sticker, Verived, `Yt Abil Botz`)
+costum(buffer, sticker, Verived, `Tian Bot WhatsApp`)
 fs.unlinkSync(media)
 fs.unlinkSync(ran)
 })
@@ -1003,16 +1003,16 @@ break
 case 'sewabot':
  listMsg = {
  buttonText: 'Buttons',
- footerText: '🌀 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 𝘈𝘣𝘪𝘭𝘉𝘰𝘵𝘻',
+ footerText: 'Tian Bot',
  description: `Hai kak @${sender.split('@')[0]}, Mau Sewabot Ya?
  Nih Kak Listnya
  
  *Permanen*
- Rp 15.000
+ Rp 12.000
  *Perbulan*
- Rp 10.000
+ Rp 8.000
  *Perminggu*
- Rp 5.000
+ Rp 3.000
  
  *Note : Beli Tinggal Beli Kak Fitur Cek Sendiri Gk Usah Banyak Nanya Atau Basa Basi Soalnya Owner Sibuk 🙏*`,
  sections: [
@@ -1032,7 +1032,7 @@ break
 
 case 'donasi':
 case 'sedekah':
-reply(`Donasi ${botname}\nQrisAllPayment\nhttps://bit.ly/Allpay\nGopay\nhttps://bit.ly/qrgopay\nOvo\nhttps://bit.ly/qrovo\nDana\nhttp://bit.ly/3HGqiQK`)
+reply(`Donasi ${botname}\nQrisAllPayment\nhttps://i.ibb.co/SwLNRpp/QR-Allpay.jpg\nGopay\nhttps://i.ibb.co/6s5mxRM/Gopay.jpg`)
 break
 
 
@@ -1096,7 +1096,7 @@ case 'sc':
 case 'script':
 case 'sourcecode':
 ini_text = `Script
-https://youtube.com/channel/UCJPqI5eVhKPXPL2V8y6pIDA`
+*Mau Apa Bang Cari Sc? Di Yt Banyak*`
 reply(ini_text)
 break
 
